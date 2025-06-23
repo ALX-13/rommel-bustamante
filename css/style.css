@@ -18,55 +18,55 @@ body {
 }
 @font-face {
   font-family: 'InknutAntiqua-SemiBold';
-  src: url('/assets/fonts/InknutAntiqua-SemiBold.ttf') format('truetype');
+  src: url('assets/fonts/InknutAntiqua-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: 'InknutAntiqua-Regular';
-  src: url('/assets/fonts/InknutAntiqua-Regular.ttf') format('truetype');
+  src: url('assets/fonts/InknutAntiqua-Regular.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: 'Montserrat-Regular';
-  src: url('/assets/fonts/Montserrat-Regular.ttf') format('truetype');
+  src: url('assets/fonts/Montserrat-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: regular;
 }
 @font-face {
   font-family: 'AlfaSlabOne-Regular';
-  src: url('/assets/fonts/AlfaSlabOne-Regular.ttf') format('truetype');
+  src: url('assets/fonts/AlfaSlabOne-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: regular;
 }
 @font-face {
   font-family: 'BreeSerif-Regular';
-  src: url('/assets/fonts/BreeSerif-Regular.ttf') format('truetype');
+  src: url('assets/fonts/BreeSerif-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: regular;
 }
 @font-face {
   font-family: 'AveriaSerifLibre-Regular';
-  src: url('/assets/fonts/AveriaSerifLibre-Regular.ttf') format('truetype');
+  src: url('assets/fonts/AveriaSerifLibre-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: regular;
 }
 @font-face {
   font-family: 'WorkSans-Regular';
-  src: url('/assets/fonts/WorkSans-Regular.otf') format('truetype');
+  src: url('assets/fonts/WorkSans-Regular.otf') format('truetype');
   font-weight: 400;
   font-style: regular;
 }
 @font-face {
   font-family: 'WorkSans-Light';
-  src: url('/assets/fonts/WorkSans-Light.otf') format('truetype');
+  src: url('assets/fonts/WorkSans-Light.otf') format('truetype');
   font-weight: 400;
   font-style: regular;
 }
 @font-face {
   font-family: 'SourceSansPro-Regular';
-  src: url('/assets/fonts/SourceSansPro-Regular.ttf') format('truetype');
+  src: url('assets/fonts/SourceSansPro-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: regular;
 }
