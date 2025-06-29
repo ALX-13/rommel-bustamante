@@ -187,7 +187,10 @@ function render(time) {
   cursor.lerpX += (parallaxX - cursor.lerpX) * 5 * 0.016;
   cursor.lerpY += (parallaxY - cursor.lerpY) * 5 * 0.016;
 
-  material.uniforms.u_mouse.value.set(cursor.lerpX, cursor.lerpY);
+  if (material && material.uniforms) {
+    material.uniforms.u_mouse.value.set(cursor.lerpX, cursor.lerpY);
+  }
+
 
   renderer.render(scene, camera);
 }
