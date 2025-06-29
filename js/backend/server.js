@@ -7,7 +7,7 @@ const app = express();
 const PORT = 3001;
 
 app.use(cors({
-  origin: 'https://leonardobravo.github.io',
+  origin: 'https://alx-13.github.io',
   methods: ['POST'],
 }));
 app.use(bodyParser.json());
