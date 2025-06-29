@@ -190,9 +190,10 @@ function render(time) {
   if (material && material.uniforms) {
     material.uniforms.u_mouse.value.set(cursor.lerpX, cursor.lerpY);
   }
-
-
-  renderer.render(scene, camera);
+  
+  if (renderer && scene && camera) {
+    renderer.render(scene, camera);
+  }
 }
 
 function livelyWallpaperPlaybackChanged(data) {
@@ -301,5 +302,7 @@ function createWebUI() {
   gui.add(material.uniforms.u_texture_fill, "value").name("Scale to Fill");
 }
 
-init();
-render();
+init().then(() => {
+  render();
+});
+
